@@ -6,4 +6,4 @@ RUN gradle build
 FROM openjdk:21-jdk-slim
 COPY --from=BUILD /usr/app .
 EXPOSE 8080
-ENTRYPOINT exec java -jar build/libs/api-security-0.0.1-SNAPSHOT.jar
+ENTRYPOINT exec java -jar build/libs/globalsolution-0.0.1-SNAPSHOT.jar
